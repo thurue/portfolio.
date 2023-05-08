@@ -167,7 +167,7 @@ i {
 
 .title {
     position: relative;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, 0%);
     margin-top: 20px;
     /* background-color: aquamarine; */
@@ -282,11 +282,15 @@ i {
     }
 
     .card {
-        height: 400px;
+        height: 200px;
         margin: 15px;
     }
     .foto {
         max-width: none;
         width: 60%;
+    }
+
+    .nomePro {
+        font-size: 20px;
     }
 }
