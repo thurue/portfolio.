@@ -1,0 +1,292 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(31, 27, 32);
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+img::selection,
+p::selection,
+i::selection,
+a::selection {
+    background-color: rgba(136, 0, 248, 0.137);
+    /* color: rgb(81, 0, 105); */
+    /* height: 100px; */
+}
+
+.vp {
+    height: 100vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.container {
+    /* background-color: rgb(177, 177, 177); */
+    /* width: 100px; */
+    /* height: 100px; */
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.foto {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: aqua; */
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-width: 40%;
+
+}
+
+.pic {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    width: 150px;
+
+    position: relative;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, 0%);
+
+    box-shadow: 5px 5px 15px 1px rgba(48, 30, 58, .5);
+
+    transition: .4s all;
+
+}
+
+.pic:hover {
+    left: calc(50% - 3px);
+    top: -3px;
+    box-shadow: 8px 8px 15px 1px rgba(48, 30, 58, .5);
+}
+
+.pic:active {
+    scale: .95;
+}
+
+.name {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: #CCCCCC;
+    font-weight: 600;
+    text-shadow: 0px 0px 4px rgba(195, 65, 255, 0);
+    transition: .4s all;
+    font-size: 15px;
+    line-height: 5px;
+    text-align: center;
+}
+
+.name:hover {
+    color: rgba(183, 0, 207, 0.959);
+
+    text-shadow: 0px 5px 25px 1px rgb(70, 40, 87);
+}
+
+.social {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+:root {
+    --font-size: 24px;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: var(--font-size);
+    height: var(--font-size);
+
+    background-color: rgb(70, 70, 70);
+    padding: 5px;
+    border-radius: 5px;
+    color: #CCCCCC;
+
+    transition: .4s all;
+
+}
+
+.logo:hover {
+    background-color: rgb(119, 119, 119);
+    color: rgb(89, 0, 100);
+
+    box-shadow: 0px 5px 25px 1px rgba(70, 40, 87, 0.9);
+}
+
+.logo:hover i {
+    color: rgb(177, 0, 201);
+}
+
+.logo:active {
+    scale: .8;
+}
+
+i {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.PROJETOS {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.back {
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+    font-size: 30px;
+    color: rgb(86, 0, 167);
+
+    transition: .3s all;
+
+}
+
+.back:hover {
+    color: aliceblue;
+}
+
+.back:active {
+    scale: 1.2;
+}
+
+.title {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 20px;
+    /* background-color: aquamarine; */
+    display: inline-block;
+    color: rgb(86, 0, 167);
+    line-height: 35px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    /* transform: translate(-50%, 0%); */
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(90, 90, 90, 0.377);
+}
+
+.trabalhos {
+
+    margin: 35px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    /* background-color: rgb(0, 56, 105); */
+    height: 200px;
+
+}
+
+.card {
+    margin: auto;
+    height: 300px;
+    background-color: rgb(90, 90, 90);
+
+    border-radius: 30px 30px 5px 5px;
+
+    box-shadow: 0px 0px 0px 1px rgba(70, 40, 87, 0);
+    transition: .4s all;
+
+    overflow: hidden;
+}
+
+.imagePro {
+    height: 70%;
+    /* background-image: url(./images/churrascometro.png); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+
+    transition: .4s all;
+}
+
+
+
+.nomePro {
+    height: cover;
+    color: rgb(252, 252, 252);
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.nomePP {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.card:hover .imagePro {
+    filter: blur(0px);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 25px 25px rgba(70, 40, 87, 0.9);
+    scale: 1.1;
+}
+
+
+.CHURRASCOMETRO {
+    background-image: url(./images/churrascometro.png);
+}
+
+.NEWS {
+    background-image: url(./images/NEWS.png);
+}
+
+.OBJETIVO {
+    background-image: url(./images/OBJETIVO.png);
+}
+
+.RECEITA {
+    background-image: url(./images/RECEITA.png);
+}
+
+.WORKSHOP {
+    background-image: url(./images/WORKSHOP.png);
+}
+
+.foodtruck {
+    background-image: url(./images/foodtruck.png);
+}
+
+@media (width<1000px) {
+    .trabalhos {
+        margin: 15px 10px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+        /* background-color: rgb(0, 56, 105); */
+        /* height: 400px; */
+
+    }
+
+    .card {
+        height: 400px;
+        margin: 15px;
+    }
+    .foto {
+        max-width: none;
+        width: 60%;
+    }
+}
