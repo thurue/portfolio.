@@ -32,8 +32,8 @@ a::selection {
 
     position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 5%;
+    transform: translate(-50%, -0%);
 }
 
 .foto {
@@ -52,7 +52,7 @@ a::selection {
     margin: 0px;
     padding: 0px;
     border-radius: 50%;
-    width: 150px;
+    width: 250px;
 
     position: relative;
     left: 50%;
@@ -81,7 +81,7 @@ a::selection {
     font-weight: 600;
     text-shadow: 0px 0px 4px rgba(195, 65, 255, 0);
     transition: .4s all;
-    font-size: 15px;
+    font-size: 2rem;
     line-height: 5px;
     text-align: center;
 }
@@ -99,7 +99,7 @@ a::selection {
 }
 
 :root {
-    --font-size: 24px;
+    --font-size: 50px;
 }
 
 .logo {
